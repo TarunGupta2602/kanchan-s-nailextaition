@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanchan nailextension</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<style>
+    /* css reset */
+    body {
+        color: black;
+        margin: 0px;
+        padding: 0px;
+        background: url('long-nails-16.png');
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: inline-block;
+
+
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left img {
+        text-align: center;
+    }
+
+
+    .mid {
+        display: block;
+        width: 40%;
+        margin: 20px auto;
+
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid green;
+
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+
+    .navbar li a {
+        text-decoration: none;
+        color:white;
+        padding: 34px 23px;
+
+
+    }
+
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+
+
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: aliceblue;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+
+    }
+
+    .btn :hover {
+        background-color: aquamarine;
+
+    }
+    .container{
+        
+        margin: 108px 80px;
+        padding: 75px;
+        width: 36%;
+        border-radius: 28px;
+    }
+    .formgroup input{
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 3px auto;
+        font-size: 25px;
+        border-radius: 8px;
+
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    
+</style>
+
+
+    <header class="header">
+        <div class="left">
+            <img src="nail.jpg" alt="">
+            <div>Kanchan's Nailextension</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Nail Extension</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+
+            <button class="btn">call us </button>
+            <button class="btn">email us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>NAILS THAT IMPRESS</h1>
+        <form action="noaction.php">
+            
+            <div class="formgroup">
+                <input type="text"name="" placeholder="Enter your Name">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text"name="" placeholder="Enter your Age">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text"name="" placeholder="Enter your Email">
+                
+            </div>
+            <div class="formgroup">
+                <input type="text"name="" placeholder="Enter your Number">
+                
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+</body>
+
+
+</html>
